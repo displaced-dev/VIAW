@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4b031f5df46042642993487d0cc249e0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Internal/Scripts/Editor/ExampleLegacyMaterialHelpers.cs
+  uploadId: 949148

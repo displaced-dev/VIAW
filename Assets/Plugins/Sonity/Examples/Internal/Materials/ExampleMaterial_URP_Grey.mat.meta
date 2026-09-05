@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc3c7ef58ff7ac948b9bc23b561eabdd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_URP_Grey.mat
+  uploadId: 949148

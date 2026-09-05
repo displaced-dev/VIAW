@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 001165352def8c7418e7511ca3a33c73
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Example Scenes/Example 4.1 SoundParameter
+    A (Update Mode Once).unity
+  uploadId: 949148

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80e974bec1586a748b5241d08c797004
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Internal/Prefabs/ExampleLegacyMaterialManager.prefab
+  uploadId: 949148

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 718d13a070fe5df489a2c28cc57c27e6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Example Scenes/Example 4.2 SoundParameter
+    B (Update Mode Continuous).unity
+  uploadId: 949148

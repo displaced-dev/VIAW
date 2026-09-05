@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a425cf4d6957d2543a612993cacd0ec7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Audio Assets/SFX/SteamAudio/Example_SFX_Talking_Numbers_Loop_SC.asset
+  uploadId: 949148

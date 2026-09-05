@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 82f0dedfd8efecc459d0f146eb372688
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleShaderTransparentUnlit.shader
+  uploadId: 949148

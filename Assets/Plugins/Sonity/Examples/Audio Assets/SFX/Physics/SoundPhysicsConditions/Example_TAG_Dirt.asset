@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5da9e7a129087b428304aac4f9c5f8e, type: 3}
+  m_Name: Example_TAG_Dirt
+  m_EditorClassIdentifier: 
+  internals:
+    cachedName: Example_TAG_Dirt
+    sonityGuid:
+      A: 1789273073
+      B: -1963677399
+      C: 528918713
+      D: 1483201187
+    sonityVersion: 1.2.0
+    sonityGuidEditor: 6aa623f1-a929-8af4-b9a8-861fa3da6758
+    notes: Notes

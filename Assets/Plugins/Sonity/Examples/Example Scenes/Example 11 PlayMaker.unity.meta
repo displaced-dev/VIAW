@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b5b59ff63832a9a4492fe7f8d8f851ad
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229857
+  packageName: Sonity - Audio Middleware
+  packageVersion: 1.2.0
+  assetPath: Assets/Plugins/Sonity/Examples/Example Scenes/Example 11 PlayMaker.unity
+  uploadId: 949148
