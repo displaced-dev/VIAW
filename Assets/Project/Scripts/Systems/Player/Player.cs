@@ -1,4 +1,5 @@
 using UnityEngine;
+using VIAW.Systems.Network;
 
 namespace VIAW.Systems.Player
 {
@@ -6,8 +7,9 @@ namespace VIAW.Systems.Player
     {
         [Header("State Machine")]
         [SerializeField] private PlayerStateMachine PSM;
+        [SerializeField] private LocalPlayerState LPS;
         
-        [Header("Managers")]
+        [Header("Controllers")]
         [SerializeField] private PlayerCamera playerCamera;
         [Space]
         [SerializeField] private _MovementController playerCharacter;
@@ -19,9 +21,9 @@ namespace VIAW.Systems.Player
         private Transform spectatorCameraTarget;
 
         #region Unity Calls
-        private void Start() {
-            playerCamera.Initialize(PSM);
-            characterDataM.Initialize();
+        public void Initialize() {
+            if(LPS.isLocalPlayer) { LocalInit(); }
+            else { RemoteInit(); }
         }
 
         private void Update() {
@@ -35,6 +37,16 @@ namespace VIAW.Systems.Player
         }
         #endregion
 
+        #region Initializations
+        private void LocalInit() {
+            playerCamera.Initialize(PSM);
+            characterDataM.Initialize();
+        }
+        private void RemoteInit() {
+            playerCamera.RemoteInit();
+        }
+        #endregion
+
         #region Controllers
         // Both
         public void ProcessControllers() {
@@ -45,7 +57,7 @@ namespace VIAW.Systems.Player
             }
             if(playerCharacter != null && playerCamera != null)
             {
-                playerCharacter._UpdateBody(Time.deltaTime);
+                playerCharacter._UpdateBody(Time.deltaTime, playerCamera.gameObject.transform);
             }
         }
 
@@ -90,7 +102,13 @@ namespace VIAW.Systems.Player
                 if(characterDataM.currentMovementController._isInitialized) { return; }
 
                 playerCharacter = characterDataM.currentMovementController;
-                playerCharacter._Initialize(PSM);
+
+                if(LPS.isLocalPlayer) {
+                    playerCharacter._Initialize(PSM);
+                }
+                else {
+                    playerCharacter._RemoteInit();
+                }
             }
         }
         #endregion

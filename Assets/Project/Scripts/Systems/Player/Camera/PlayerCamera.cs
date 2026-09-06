@@ -38,6 +38,10 @@ namespace VIAW.Systems.Player
             
         }
 
+        public void RemoteInit() {
+            this.gameObject.SetActive(false);
+        }
+
         public void UpdateCameraInput() {
             if (!_inputAuthorized)
             {

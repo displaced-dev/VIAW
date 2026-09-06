@@ -28,14 +28,14 @@ namespace VIAW.Async
                 PlayerPrefs.SetInt(FirstLaunchKey, 1);
                 PlayerPrefs.Save();
 
-                SceneManager.LoadScene(mainSceneName);
+                SceneManager.LoadScene(setupSceneName);
             }
             else if (Bypass) {
                 SceneManager.LoadScene(setupSceneName);
             }
             else
             {
-                SceneManager.LoadScene(setupSceneName);
+                SceneManager.LoadScene(mainSceneName);
             }
         }
     }

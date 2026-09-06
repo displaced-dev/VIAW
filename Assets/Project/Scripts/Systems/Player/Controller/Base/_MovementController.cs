@@ -12,7 +12,8 @@ namespace VIAW.Systems.Player
 
         // Must inherit for basic controls
         public abstract void _Initialize(PlayerStateMachine psm);
-        public abstract void _UpdateBody(float deltaTime);
+        public abstract void _RemoteInit();
+        public abstract void _UpdateBody(float deltaTime, Transform playerCam);
 
         // Helpers
         public abstract Transform _GetCameraTarget();

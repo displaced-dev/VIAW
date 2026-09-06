@@ -8,9 +8,10 @@ using System;
 namespace VIAW.Async.Auth {
     public abstract class _InputAuth : MonoBehaviour
     {
-        [Header("Input Auth - Runtime")]
+        [BoxGroup("InputAuth/Config")]
         public List<InputFIlterSO> _inputChannels = new List<InputFIlterSO>();
         
+        [BoxGroup("InputAuth/Debug")]
         public bool _inputAuthorized;
 
         private bool _requestingInput;
