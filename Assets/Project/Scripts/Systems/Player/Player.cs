@@ -97,18 +97,23 @@ namespace VIAW.Systems.Player
 
         #region Checks
         private void RoutineChecks() {
+            if(!LPS.isLocalPlayer) {
+                if(playerCharacter == null) { 
+                    playerCharacter = GetComponentInChildren<_MovementController>();
+                    
+                    if(playerCharacter.enabled) {
+                       playerCharacter._RemoteInit(); 
+                    }
+                }
+            }
+            
             // Character Data
-            if(characterDataM.currentMovementController != null) {
-                if(characterDataM.currentMovementController._isInitialized) { return; }
+            if(characterDataM.currentMovementController != null && LPS.isLocalPlayer) {
+                if(!characterDataM.currentMovementController._isInitialized) {
+                    playerCharacter = characterDataM.currentMovementController;
 
-                playerCharacter = characterDataM.currentMovementController;
-
-                if(LPS.isLocalPlayer) {
                     playerCharacter._Initialize(PSM);
-                }
-                else {
-                    playerCharacter._RemoteInit();
-                }
+                 }
             }
         }
         #endregion
