@@ -2,6 +2,7 @@
   <Project Path="Evo.UI.Editor.csproj" />
   <Project Path="Flexalon.Editor.csproj" />
   <Project Path="DissonanceVoip.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="QFSW.QC.Extras.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Sonity.Internal.Runtime.csproj" />
@@ -16,11 +17,11 @@
   <Project Path="QFSW.QC.Parsers.csproj" />
   <Project Path="Sonity.Public.Runtime.csproj" />
   <Project Path="Sonity.Public.Editor.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Flexalon.csproj" />
   <Project Path="ParrelSync.csproj" />
   <Project Path="VHierarchy.csproj" />
   <Project Path="Evo.Editor.csproj" />
+  <Project Path="SSCC.Universal.Runtime.csproj" />
   <Project Path="Sonity.Public.EditorTools.csproj" />
   <Project Path="SonityExample.csproj" />
   <Project Path="QFSW.QC.Serializers.csproj" />
@@ -33,4 +34,5 @@
   <Project Path="SonityTemplate.csproj" />
   <Project Path="Flexalon.Samples.Editor.csproj" />
   <Project Path="QFSW.QC.ScanRules.csproj" />
+  <Project Path="SSCC.Runtime.csproj" />
 </Solution>

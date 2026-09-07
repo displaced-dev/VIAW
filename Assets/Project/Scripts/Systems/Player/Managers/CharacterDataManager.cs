@@ -25,7 +25,7 @@ namespace VIAW.Systems.Player
         }
 
         public void LoadCharacterData(CharacterDataSO newCharacter){
-            if(newCharacter == null || newCharacter.GameplayController == null) {
+            if(newCharacter == null || newCharacter.gameplayController == null) {
                 Debug.LogError("Could Not Process Character Data Swap");
                 return;
             }
@@ -35,17 +35,9 @@ namespace VIAW.Systems.Player
             }
 
             currentCharacterData = newCharacter;
-            GameObject characterObject = Instantiate(newCharacter.GameplayController, CharacterSpawnRoot);
-            if(characterObject != null) {
-                currentCharacterObject = characterObject;
-            }
-
-            LinkCharacterController();
-        }
-
-        private void LinkCharacterController() {
-            if(currentCharacterObject != null && currentCharacterObject.TryGetComponent(out _MovementController tempController)) {
-                currentMovementController = tempController;
+            currentMovementController = Instantiate(newCharacter.gameplayController, CharacterSpawnRoot);
+            if(currentMovementController != null) {
+                currentCharacterObject = currentMovementController.gameObject;
             }
         }
 

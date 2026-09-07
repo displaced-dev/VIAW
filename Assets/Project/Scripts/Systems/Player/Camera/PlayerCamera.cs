@@ -39,7 +39,11 @@ namespace VIAW.Systems.Player
         }
 
         public void RemoteInit() {
-            this.gameObject.SetActive(false);
+            foreach(Camera cam in cameraList) {
+                cam.gameObject.SetActive(false);
+            }
+
+            this.enabled = false;
         }
 
         public void UpdateCameraInput() {

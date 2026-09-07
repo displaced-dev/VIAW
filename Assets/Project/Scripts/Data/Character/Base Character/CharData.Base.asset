@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c958a937327cc044898dbbae2868d13c, type: 3}
   m_Name: CharData.Base
   m_EditorClassIdentifier: Assembly-CSharp::GameJam.Data.CharacterDataSO
-  GameplayController: {fileID: 2474716981267592110, guid: 590b10c164c2d804ab9d84541931a6e4, type: 3}
+  gameplayController: {fileID: 5326743501367107177, guid: 590b10c164c2d804ab9d84541931a6e4, type: 3}

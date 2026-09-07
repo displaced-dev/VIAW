@@ -51,6 +51,7 @@ namespace VIAW.Systems.Player
 
         [BoxGroup("Debug")]
         [SerializeField] private Stance debugStance;
+        [SerializeField] private RigInfo currentRigInfo;
         
         public CharacterState state;
 
@@ -77,6 +78,8 @@ namespace VIAW.Systems.Player
             motor.CharacterController = this;
             motor.enabled = true;
             state.Stance = Stance.Stand;
+
+            _SpawnVisuals();
 
             _isInitialized = true;
             aInputInit(true);
@@ -149,6 +152,7 @@ namespace VIAW.Systems.Player
         }
 
         public override Transform _GetCameraTarget() => cameraTarget;
+        public override RigInfo _GetCurrentRigInfo() => currentRigInfo;
 
         public override void _Teleport(Vector3 position)
         {
@@ -167,6 +171,11 @@ namespace VIAW.Systems.Player
             cameraYaw = rotation;
             requestedRotation = rotation;
             motor.SetRotation(rotation);
+        }
+
+        public override void _SpawnVisuals() {
+            currentRigInfo = Instantiate(_visualsRig, _visualSpawnPoint);
+            currentRigInfo.meshManager.disableMeshes = true;
         }
 
         public void ResetMovementStates()
