@@ -827,7 +827,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: EVO_UI
+    Android: EVO_UI;STEAMAUDIO_ENABLED
     EmbeddedLinux: EVO_UI
     GameCoreScarlett: EVO_UI
     GameCoreXboxOne: EVO_UI
@@ -838,12 +838,12 @@ PlayerSettings:
     PS4: EVO_UI
     PS5: EVO_UI
     QNX: EVO_UI
-    Standalone: EVO_UI
+    Standalone: EVO_UI;STEAMAUDIO_ENABLED
     VisionOS: EVO_UI
-    WebGL: EVO_UI
+    WebGL: EVO_UI;STEAMAUDIO_ENABLED
     Windows Store Apps: EVO_UI
     XboxOne: EVO_UI
-    iPhone: EVO_UI
+    iPhone: EVO_UI;STEAMAUDIO_ENABLED
     tvOS: EVO_UI
   additionalCompilerArguments: {}
   platformArchitecture: {}

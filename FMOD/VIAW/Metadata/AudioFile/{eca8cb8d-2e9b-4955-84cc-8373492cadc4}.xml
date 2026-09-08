@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{eca8cb8d-2e9b-4955-84cc-8373492cadc4}">
+		<property name="assetPath">
+			<value>Characters/Veto/Footsteps/Veto_A.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.26401360544217689</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5cf5906b-2382-4be8-bdc5-046c5ad9aa71}</destination>
+		</relationship>
+	</object>
+</objects>
