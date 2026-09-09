@@ -602,7 +602,7 @@ namespace TinyInspector
             // render via IMGUI so IMGUI-only drawers still work.
             if (fi != null && HasCustomPropertyDrawerForType(fi.FieldType) && !HasUIToolkitDrawerForType(fi.FieldType))
             {
-                //parent.Add(CreateIMGUIPropertyField(path));
+                parent.Add(CreateIMGUIPropertyField(path));
                 return;
             }
 

@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: CharData.Base
   m_EditorClassIdentifier: Assembly-CSharp::GameJam.Data.CharacterDataSO
   gameplayController: {fileID: 5326743501367107177, guid: 590b10c164c2d804ab9d84541931a6e4, type: 3}
+  thirdPersonVisuals: {fileID: 5271552828708168830, guid: c71578c2f7a9e1d4e8dd30f1530217de, type: 3}
+  firstPersonArms: {fileID: 567297093989793958, guid: e98912d2f0072034eb832a2c48de7f41, type: 3}
+  soundProfile: {fileID: 11400000, guid: 0e4db1929e492c2488e9a31ae7c2e315, type: 2}

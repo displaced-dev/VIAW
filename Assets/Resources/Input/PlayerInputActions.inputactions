@@ -25,7 +25,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Sprint",
+                    "name": "Walk",
                     "type": "Button",
                     "id": "3c2ae04a-fae2-4028-9c34-03280ec4245e",
                     "expectedControlType": "",
@@ -237,7 +237,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K",
-                    "action": "Sprint",
+                    "action": "Walk",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -248,7 +248,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Sprint",
+                    "action": "Walk",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

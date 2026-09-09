@@ -1,0 +1,767 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UpperBody
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/L_IK_FootTarget
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/L_IK_FootTarget/L_IK_FootTarget_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/L_IK_FootTarget/L_IK_FootTarget_end/L_IK_FootTarget_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/L_IK_FootTarget/L_IK_FootTarget_end/L_IK_FootTarget_end_end/L_IK_FootTarget_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/R_IK_FootTarget
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/R_IK_FootTarget/R_IK_FootTarget_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/R_IK_FootTarget/R_IK_FootTarget_end/R_IK_FootTarget_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/IK_RootTarget/R_IK_FootTarget/R_IK_FootTarget_end/R_IK_FootTarget_end_end/R_IK_FootTarget_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Root_Melee_FX
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Root_Melee_FX/Root_Melee_FX_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Root_Melee_FX/Root_Melee_FX_end/Root_Melee_FX_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Root_Melee_FX/Root_Melee_FX_end/Root_Melee_FX_end_end/Root_Melee_FX_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/L_Hand_IKpv_IUE
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/L_Hand_IKpv_IUE/L_Hand_IKpv_IUE_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/L_Hand_IKpv_IUE/L_Hand_IKpv_IUE_end/L_Hand_IKpv_IUE_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/L_Hand_IKpv_IUE/L_Hand_IKpv_IUE_end/L_Hand_IKpv_IUE_end_end/L_Hand_IKpv_IUE_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_Weapon_HandTarget
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_Weapon_HandTarget/L_Weapon_HandOffset
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_Weapon_HandTarget/L_Weapon_HandOffset/L_Weapon_HandOffset_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_Weapon_HandTarget/L_Weapon_HandOffset/L_Weapon_HandOffset_end/L_Weapon_HandOffset_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_Weapon_HandTarget/L_Weapon_HandOffset/L_Weapon_HandOffset_end/L_Weapon_HandOffset_end_end/L_Weapon_HandOffset_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/BombPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/BombPoint/BombPoint_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/BombPoint/BombPoint_end/BombPoint_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/BombPoint/BombPoint_end/BombPoint_end_end/BombPoint_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/L_WeaponMasterSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/L_WeaponMasterSocket/L_WeaponMasterSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/L_WeaponMasterSocket/L_WeaponMasterSocket_end/L_WeaponMasterSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/L_WeaponMaster/L_WeaponMasterSocket/L_WeaponMasterSocket_end/L_WeaponMasterSocket_end_end/L_WeaponMasterSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_Weapon_HandTarget
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_Weapon_HandTarget/R_Weapon_HandTarget_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_Weapon_HandTarget/R_Weapon_HandTarget_end/R_Weapon_HandTarget_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_Weapon_HandTarget/R_Weapon_HandTarget_end/R_Weapon_HandTarget_end_end/R_Weapon_HandTarget_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_WeaponMaster
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_WeaponMaster/WeaponPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_WeaponMaster/WeaponPoint/WeaponPoint_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_WeaponMaster/WeaponPoint/WeaponPoint_end/WeaponPoint_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/MasterWeapon/R_WeaponMaster/WeaponPoint/WeaponPoint_end/WeaponPoint_end_end/WeaponPoint_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/R_Hand_IKpv_IUE
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/R_Hand_IKpv_IUE/R_Hand_IKpv_IUE_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/R_Hand_IKpv_IUE/R_Hand_IKpv_IUE_end/R_Hand_IKpv_IUE_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/R_Hand_IKpv_IUE/R_Hand_IKpv_IUE_end/R_Hand_IKpv_IUE_end_end/R_Hand_IKpv_IUE_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/VFX_MasterWeaponAim
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/VFX_MasterWeaponAim/VFX_MasterWeaponAim_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/VFX_MasterWeaponAim/VFX_MasterWeaponAim_end/VFX_MasterWeaponAim_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/MasterWeaponAim/VFX_MasterWeaponAim/VFX_MasterWeaponAim_end/VFX_MasterWeaponAim_end_end/VFX_MasterWeaponAim_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Foot_IKpv_IUE
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Foot_IKpv_IUE/L_Foot_IKpv_IUE_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Foot_IKpv_IUE/L_Foot_IKpv_IUE_end/L_Foot_IKpv_IUE_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Foot_IKpv_IUE/L_Foot_IKpv_IUE_end/L_Foot_IKpv_IUE_end_end/L_Foot_IKpv_IUE_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst1/L_Hip_Twst1_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst1/L_Hip_Twst1_end/L_Hip_Twst1_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst1/L_Hip_Twst1_end/L_Hip_Twst1_end_end/L_Hip_Twst1_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst3/L_Hip_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst3/L_Hip_Twst3_end/L_Hip_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Hip_Twst3/L_Hip_Twst3_end/L_Hip_Twst3_end_end/L_Hip_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Foot_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Foot_end/L_Foot_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Foot_end/L_Foot_end_end/L_Foot_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Foot_end/L_Foot_end_end/L_Foot_end_end_end/L_Foot_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_HeelRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_HeelRoll_end/L_HeelRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_HeelRoll_end/L_HeelRoll_end_end/L_HeelRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_HeelRoll_end/L_HeelRoll_end_end/L_HeelRoll_end_end_end/L_HeelRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_InnerRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_InnerRoll_end/L_InnerRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_InnerRoll_end/L_InnerRoll_end_end/L_InnerRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_InnerRoll_end/L_InnerRoll_end_end/L_InnerRoll_end_end_end/L_InnerRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_OuterRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_OuterRoll_end/L_OuterRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_OuterRoll_end/L_OuterRoll_end_end/L_OuterRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_OuterRoll_end/L_OuterRoll_end_end/L_OuterRoll_end_end_end/L_OuterRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_SwivelRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_SwivelRoll_end/L_SwivelRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_SwivelRoll_end/L_SwivelRoll_end_end/L_SwivelRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_SwivelRoll_end/L_SwivelRoll_end_end/L_SwivelRoll_end_end_end/L_SwivelRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Toe
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Toe/L_Toe_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Toe/L_Toe_end/L_Toe_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Toe/L_Toe_end/L_Toe_end_end/L_Toe_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_Toe/L_Toe_end/L_Toe_end_end/L_Toe_end_end_end/L_Toe_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_ToeRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_ToeRoll_end/L_ToeRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_ToeRoll_end/L_ToeRoll_end_end/L_ToeRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/L_ToeRoll_end/L_ToeRoll_end_end/L_ToeRoll_end_end_end/L_ToeRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/LeftFootSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/LeftFootSocket/LeftFootSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/LeftFootSocket/LeftFootSocket_end/LeftFootSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Foot/LeftFootSocket/LeftFootSocket_end/LeftFootSocket_end_end/LeftFootSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Knee_Ndl
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Knee_Ndl/L_Knee_Ndl_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Knee_Ndl/L_Knee_Ndl_end/L_Knee_Ndl_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/L_Knee_Ndl/L_Knee_Ndl_end/L_Knee_Ndl_end_end/L_Knee_Ndl_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/VFX_L_Knee
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/VFX_L_Knee/VFX_L_Knee_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/VFX_L_Knee/VFX_L_Knee_end/VFX_L_Knee_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/L_Knee/VFX_L_Knee/VFX_L_Knee_end/VFX_L_Knee_end_end/VFX_L_Knee_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/MeleeInventorySlot
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/MeleeInventorySlot/MeleeInventorySlot_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/MeleeInventorySlot/MeleeInventorySlot_end/MeleeInventorySlot_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/L_Hip/MeleeInventorySlot/MeleeInventorySlot_end/MeleeInventorySlot_end_end/MeleeInventorySlot_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Foot_IKpv_IUE
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Foot_IKpv_IUE/R_Foot_IKpv_IUE_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Foot_IKpv_IUE/R_Foot_IKpv_IUE_end/R_Foot_IKpv_IUE_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Foot_IKpv_IUE/R_Foot_IKpv_IUE_end/R_Foot_IKpv_IUE_end_end/R_Foot_IKpv_IUE_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst1/R_Hip_Twst1_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst1/R_Hip_Twst1_end/R_Hip_Twst1_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst1/R_Hip_Twst1_end/R_Hip_Twst1_end_end/R_Hip_Twst1_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst3/R_Hip_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst3/R_Hip_Twst3_end/R_Hip_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Hip_Twst3/R_Hip_Twst3_end/R_Hip_Twst3_end_end/R_Hip_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Foot_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Foot_end/R_Foot_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Foot_end/R_Foot_end_end/R_Foot_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Foot_end/R_Foot_end_end/R_Foot_end_end_end/R_Foot_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_HeelRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_HeelRoll_end/R_HeelRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_HeelRoll_end/R_HeelRoll_end_end/R_HeelRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_HeelRoll_end/R_HeelRoll_end_end/R_HeelRoll_end_end_end/R_HeelRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_InnerRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_InnerRoll_end/R_InnerRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_InnerRoll_end/R_InnerRoll_end_end/R_InnerRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_InnerRoll_end/R_InnerRoll_end_end/R_InnerRoll_end_end_end/R_InnerRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_OuterRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_OuterRoll_end/R_OuterRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_OuterRoll_end/R_OuterRoll_end_end/R_OuterRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_OuterRoll_end/R_OuterRoll_end_end/R_OuterRoll_end_end_end/R_OuterRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_SwivelRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_SwivelRoll_end/R_SwivelRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_SwivelRoll_end/R_SwivelRoll_end_end/R_SwivelRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_SwivelRoll_end/R_SwivelRoll_end_end/R_SwivelRoll_end_end_end/R_SwivelRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Toe
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Toe/R_Toe_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Toe/R_Toe_end/R_Toe_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Toe/R_Toe_end/R_Toe_end_end/R_Toe_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_Toe/R_Toe_end/R_Toe_end_end/R_Toe_end_end_end/R_Toe_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_ToeRoll_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_ToeRoll_end/R_ToeRoll_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_ToeRoll_end/R_ToeRoll_end_end/R_ToeRoll_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/R_ToeRoll_end/R_ToeRoll_end_end/R_ToeRoll_end_end_end/R_ToeRoll_end_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/RightFootSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/RightFootSocket/RightFootSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/RightFootSocket/RightFootSocket_end/RightFootSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Foot/RightFootSocket/RightFootSocket_end/RightFootSocket_end_end/RightFootSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Knee_Ndl
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Knee_Ndl/R_Knee_Ndl_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Knee_Ndl/R_Knee_Ndl_end/R_Knee_Ndl_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/R_Knee_Ndl/R_Knee_Ndl_end/R_Knee_Ndl_end_end/R_Knee_Ndl_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/VFX_R_Knee
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/VFX_R_Knee/VFX_R_Knee_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/VFX_R_Knee/VFX_R_Knee_end/VFX_R_Knee_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Pelvis/R_Hip/R_Knee/VFX_R_Knee/VFX_R_Knee_end/VFX_R_Knee_end_end/VFX_R_Knee_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Bomb
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Bomb/Bomb_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Bomb/Bomb_end/Bomb_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Bomb/Bomb_end/Bomb_end_end/Bomb_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/BackSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/BackSocket/BackSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/BackSocket/BackSocket_end/BackSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/BackSocket/BackSocket_end/BackSocket_end_end/BackSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/GrenadierCoreSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/GrenadierCoreSocket/GrenadierCoreSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/GrenadierCoreSocket/GrenadierCoreSocket_end/GrenadierCoreSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/GrenadierCoreSocket/GrenadierCoreSocket_end/GrenadierCoreSocket_end_end/GrenadierCoreSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Ndl
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Ndl/L_Elbow_Ndl_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Ndl/L_Elbow_Ndl_end/L_Elbow_Ndl_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Ndl/L_Elbow_Ndl_end/L_Elbow_Ndl_end_end/L_Elbow_Ndl_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst2/L_Elbow_Twst2_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst2/L_Elbow_Twst2_end/L_Elbow_Twst2_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst2/L_Elbow_Twst2_end/L_Elbow_Twst2_end_end/L_Elbow_Twst2_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst3/L_Elbow_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst3/L_Elbow_Twst3_end/L_Elbow_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Elbow_Twst3/L_Elbow_Twst3_end/L_Elbow_Twst3_end_end/L_Elbow_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1/L_Index2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1/L_Index2/L_Index3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1/L_Index2/L_Index3/L_Index3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1/L_Index2/L_Index3/L_Index3_end/L_Index3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Index1/L_Index2/L_Index3/L_Index3_end/L_Index3_end_end/L_Index3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1/L_Middle2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1/L_Middle2/L_Middle3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1/L_Middle2/L_Middle3/L_Middle3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1/L_Middle2/L_Middle3/L_Middle3_end/L_Middle3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Middle1/L_Middle2/L_Middle3/L_Middle3_end/L_Middle3_end_end/L_Middle3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1/L_Pinky2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3/L_Pinky3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3/L_Pinky3_end/L_Pinky3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3/L_Pinky3_end/L_Pinky3_end_end/L_Pinky3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1/L_Ring2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1/L_Ring2/L_Ring3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1/L_Ring2/L_Ring3/L_Ring3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1/L_Ring2/L_Ring3/L_Ring3_end/L_Ring3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Ring1/L_Ring2/L_Ring3/L_Ring3_end/L_Ring3_end_end/L_Ring3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1/L_Thumb2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb3_end/L_Thumb3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb3_end/L_Thumb3_end_end/L_Thumb3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_WeaponPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_WeaponPoint/L_WeaponPointSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_WeaponPoint/L_WeaponPointSocket/L_WeaponPointSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_WeaponPoint/L_WeaponPointSocket/L_WeaponPointSocket_end/L_WeaponPointSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/L_Hand/L_WeaponPoint/L_WeaponPointSocket/L_WeaponPointSocket_end/L_WeaponPointSocket_end_end/L_WeaponPointSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/VFX_L_Elbow
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/VFX_L_Elbow/VFX_L_Elbow_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/VFX_L_Elbow/VFX_L_Elbow_end/VFX_L_Elbow_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Elbow/VFX_L_Elbow/VFX_L_Elbow_end/VFX_L_Elbow_end_end/VFX_L_Elbow_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst1/L_Shoulder_Twst1_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst1/L_Shoulder_Twst1_end/L_Shoulder_Twst1_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst1/L_Shoulder_Twst1_end/L_Shoulder_Twst1_end_end/L_Shoulder_Twst1_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst3/L_Shoulder_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst3/L_Shoulder_Twst3_end/L_Shoulder_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/L_Clavicle/L_Shoulder/L_Shoulder_Twst3/L_Shoulder_Twst3_end/L_Shoulder_Twst3_end_end/L_Shoulder_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Collar
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Collar/Collar_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Collar/Collar_end/Collar_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Collar/Collar_end/Collar_end_end/Collar_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadMaskSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadMaskSocket/HeadMaskSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadMaskSocket/HeadMaskSocket_end/HeadMaskSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadMaskSocket/HeadMaskSocket_end/HeadMaskSocket_end_end/HeadMaskSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadSocket_VFX
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadSocket_VFX/HeadSocket_VFX_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadSocket_VFX/HeadSocket_VFX_end/HeadSocket_VFX_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/HeadSocket_VFX/HeadSocket_VFX_end/HeadSocket_VFX_end_end/HeadSocket_VFX_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/VFX_Head
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/VFX_Head/VFX_Head_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/VFX_Head/VFX_Head_end/VFX_Head_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/Neck/Head/VFX_Head/VFX_Head_end/VFX_Head_end_end/VFX_Head_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/PrimaryInventorySlot
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/PrimaryInventorySlot/PrimaryInventorySlot_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/PrimaryInventorySlot/PrimaryInventorySlot_end/PrimaryInventorySlot_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/PrimaryInventorySlot/PrimaryInventorySlot_end/PrimaryInventorySlot_end_end/PrimaryInventorySlot_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Ndl
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Ndl/R_Elbow_Ndl_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Ndl/R_Elbow_Ndl_end/R_Elbow_Ndl_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Ndl/R_Elbow_Ndl_end/R_Elbow_Ndl_end_end/R_Elbow_Ndl_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst2/R_Elbow_Twst2_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst2/R_Elbow_Twst2_end/R_Elbow_Twst2_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst2/R_Elbow_Twst2_end/R_Elbow_Twst2_end_end/R_Elbow_Twst2_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst3/R_Elbow_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst3/R_Elbow_Twst3_end/R_Elbow_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Elbow_Twst3/R_Elbow_Twst3_end/R_Elbow_Twst3_end_end/R_Elbow_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_HandSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_HandSocket/R_HandSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_HandSocket/R_HandSocket_end/R_HandSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_HandSocket/R_HandSocket_end/R_HandSocket_end_end/R_HandSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1/R_Index2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1/R_Index2/R_Index3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1/R_Index2/R_Index3/R_Index3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1/R_Index2/R_Index3/R_Index3_end/R_Index3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Index1/R_Index2/R_Index3/R_Index3_end/R_Index3_end_end/R_Index3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1/R_Middle2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1/R_Middle2/R_Middle3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1/R_Middle2/R_Middle3/R_Middle3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1/R_Middle2/R_Middle3/R_Middle3_end/R_Middle3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Middle1/R_Middle2/R_Middle3/R_Middle3_end/R_Middle3_end_end/R_Middle3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1/R_Pinky2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3/R_Pinky3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3/R_Pinky3_end/R_Pinky3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3/R_Pinky3_end/R_Pinky3_end_end/R_Pinky3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1/R_Ring2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1/R_Ring2/R_Ring3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1/R_Ring2/R_Ring3/R_Ring3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1/R_Ring2/R_Ring3/R_Ring3_end/R_Ring3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Ring1/R_Ring2/R_Ring3/R_Ring3_end/R_Ring3_end_end/R_Ring3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1/R_Thumb2
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb3_end/R_Thumb3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb3_end/R_Thumb3_end_end/R_Thumb3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/CS_WeaponPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/CS_WeaponPoint/CS_WeaponPoint_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/CS_WeaponPoint/CS_WeaponPoint_end/CS_WeaponPoint_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/CS_WeaponPoint/CS_WeaponPoint_end/CS_WeaponPoint_end_end/CS_WeaponPoint_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/L_WeaponPoint_Brute
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/L_WeaponPoint_Brute/L_WeaponPoint_Brute_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/L_WeaponPoint_Brute/L_WeaponPoint_Brute_end/L_WeaponPoint_Brute_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/L_WeaponPoint_Brute/L_WeaponPoint_Brute_end/L_WeaponPoint_Brute_end_end/L_WeaponPoint_Brute_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPoint.001
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPoint.001/R_WeaponPoint.001_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPoint.001/R_WeaponPoint.001_end/R_WeaponPoint.001_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPoint.001/R_WeaponPoint.001_end/R_WeaponPoint.001_end_end/R_WeaponPoint.001_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointMelee
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointMelee/R_WeaponPointMelee_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointMelee/R_WeaponPointMelee_end/R_WeaponPointMelee_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointMelee/R_WeaponPointMelee_end/R_WeaponPointMelee_end_end/R_WeaponPointMelee_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointSocket/R_WeaponPointSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointSocket/R_WeaponPointSocket_end/R_WeaponPointSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/R_Hand/R_WeaponPoint/R_WeaponPointSocket/R_WeaponPointSocket_end/R_WeaponPointSocket_end_end/R_WeaponPointSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/VFX_R_Elbow
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/VFX_R_Elbow/VFX_R_Elbow_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/VFX_R_Elbow/VFX_R_Elbow_end/VFX_R_Elbow_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Elbow/VFX_R_Elbow/VFX_R_Elbow_end/VFX_R_Elbow_end_end/VFX_R_Elbow_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst1
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst1/R_Shoulder_Twst1_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst1/R_Shoulder_Twst1_end/R_Shoulder_Twst1_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst1/R_Shoulder_Twst1_end/R_Shoulder_Twst1_end_end/R_Shoulder_Twst1_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst3
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst3/R_Shoulder_Twst3_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst3/R_Shoulder_Twst3_end/R_Shoulder_Twst3_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/R_Shoulder_Twst3/R_Shoulder_Twst3_end/R_Shoulder_Twst3_end_end/R_Shoulder_Twst3_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/VFX_R_Shoulder
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/VFX_R_Shoulder/VFX_R_Shoulder_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/VFX_R_Shoulder/VFX_R_Shoulder_end/VFX_R_Shoulder_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/R_Clavicle/R_Shoulder/VFX_R_Shoulder/VFX_R_Shoulder_end/VFX_R_Shoulder_end_end/VFX_R_Shoulder_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/VFX_Spine4
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/VFX_Spine4/VFX_Spine4_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/VFX_Spine4/VFX_Spine4_end/VFX_Spine4_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/Spine1/Spine2/Spine3/Spine4/VFX_Spine4/VFX_Spine4_end/VFX_Spine4_end_end/VFX_Spine4_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/SplitterSocket
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/SplitterSocket/SplitterSocket_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/SplitterSocket/SplitterSocket_end/SplitterSocket_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/SplitterSocket/SplitterSocket_end/SplitterSocket_end_end/SplitterSocket_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/WeaponShieldPoint
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/WeaponShieldPoint/WeaponShieldPoint_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/WeaponShieldPoint/WeaponShieldPoint_end/WeaponShieldPoint_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/Splitter/WeaponShieldPoint/WeaponShieldPoint_end/WeaponShieldPoint_end_end/WeaponShieldPoint_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/VFX_Root
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/VFX_Root/VFX_Root_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/VFX_Root/VFX_Root_end/VFX_Root_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.ao/Skeleton/Root/VFX_Root/VFX_Root_end/VFX_Root_end_end/VFX_Root_end_end_end
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.mo
+    m_Weight: 1
+  - m_Path: TP_TrainingBot_S0_Skelmesh.mo.001
+    m_Weight: 1

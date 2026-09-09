@@ -2,11 +2,10 @@ using UnityEngine;
 using TinyInspector;
 using KinematicCharacterController;
 using VIAW.Async.Auth;
+using VIAW.Data;
 
 namespace VIAW.Systems.Player
 {
-    public enum Stance { Stand, Crouch, Air }
-
     public struct CharacterState
     {
         public bool Grounded;
@@ -41,6 +40,8 @@ namespace VIAW.Systems.Player
         [SerializeField] private float walkSpeed = 20f;
         [TabGroup("Movement", "Speeds")]
         [SerializeField] private float crouchSpeed = 10f;
+        [TabGroup("Movement", "Speeds")]
+        [SerializeField] private float sprintSpeed = 32f;
         [TabGroup("Movement", "Speeds")] [Separator(12, 24)] [Title("Air")]
         [SerializeField] private float airSpeed = 15f;
         [TabGroup("Movement", "Speeds")]
@@ -51,6 +52,9 @@ namespace VIAW.Systems.Player
 
         [BoxGroup("Debug")]
         [SerializeField] private Stance debugStance;
+        [BoxGroup("Debug")]
+        [SerializeField] private bool debugSprinting;
+        [BoxGroup("Debug")]
         [SerializeField] private RigInfo currentRigInfo;
         
         public CharacterState state;
@@ -60,7 +64,9 @@ namespace VIAW.Systems.Player
         private Vector3 requestedMovement;
         private bool requestedJump;
         private bool requestedCrouch;
+        private bool requestedSprint;
         private bool isCrouched;
+        private bool isSprinting;
         
         private Transform playerCamera;
 
@@ -68,7 +74,7 @@ namespace VIAW.Systems.Player
 
         private const float MinPlanarSqrMagnitude = 0.0001f;
 
-        public override void _Initialize(PlayerStateMachine psm)
+        public override void _Initialize(PlayerStateMachine psm, CharacterDataSO characterdata)
         {
             if(_isInitialized){
                 return;
@@ -78,6 +84,8 @@ namespace VIAW.Systems.Player
             motor.CharacterController = this;
             motor.enabled = true;
             state.Stance = Stance.Stand;
+
+            _characterData = characterdata;
 
             _SpawnVisuals();
 
@@ -98,6 +106,8 @@ namespace VIAW.Systems.Player
             }
 
             playerCamera = playerCam;
+
+            stanceMirror = state.Stance;
 
             UpdateCameraYaw();
             UpdateInput();
@@ -133,6 +143,7 @@ namespace VIAW.Systems.Player
             requestedMovement = Vector3.zero;
             requestedJump = false;
             requestedCrouch = false;
+            requestedSprint = false;
         }
 
         public void UpdateInput()
@@ -149,6 +160,7 @@ namespace VIAW.Systems.Player
 
             requestedJump |= _input.Jump.WasPressedThisFrame();
             requestedCrouch = _input.Crouch.IsPressed();
+            requestedSprint = !_input.Walk.IsPressed();
         }
 
         public override Transform _GetCameraTarget() => cameraTarget;
@@ -174,8 +186,13 @@ namespace VIAW.Systems.Player
         }
 
         public override void _SpawnVisuals() {
-            currentRigInfo = Instantiate(_visualsRig, _visualSpawnPoint);
-            currentRigInfo.meshManager.disableMeshes = true;
+            currentRigInfo = Instantiate(_characterData.thirdPersonVisuals, _visualSpawnPoint);
+            if(currentRigInfo != null) {
+                currentRigInfo.meshManager.disableMeshes = true;
+                currentRigInfo.playerAnimation.m_Controller = this;
+                currentRigInfo.localPlayer = true;
+            }
+            
         }
 
         public void ResetMovementStates()
@@ -188,11 +205,13 @@ namespace VIAW.Systems.Player
             state = default;
             state.Stance = Stance.Stand;
             motor.BaseVelocity = Vector3.zero;
+            isSprinting = false;
             SetCrouched(false);
         }
 
         public CharacterState GetState() => state;
         public Stance GetStance() => state.Stance;
+        public bool GetIsSprinting() => isSprinting;
 
         public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
         {
@@ -215,10 +234,14 @@ namespace VIAW.Systems.Player
             {
                 state.Stance = isCrouched ? Stance.Crouch : Stance.Stand;
 
+                isSprinting = !isCrouched
+                              && requestedSprint
+                              && requestedMovement.sqrMagnitude > MinPlanarSqrMagnitude;
+
                 var groundedMovement = motor.GetDirectionTangentToSurface(
                     requestedMovement, motor.GroundingStatus.GroundNormal) * requestedMovement.magnitude;
 
-                var speed = isCrouched ? crouchSpeed : walkSpeed;
+                var speed = isCrouched ? crouchSpeed : (isSprinting ? sprintSpeed : walkSpeed);
 
                 currentVelocity = Vector3.Lerp(
                     currentVelocity,
@@ -228,6 +251,7 @@ namespace VIAW.Systems.Player
             else
             {
                 state.Stance = Stance.Air;
+                isSprinting = false;
 
                 if(requestedMovement.sqrMagnitude > 0f)
                 {
@@ -271,6 +295,7 @@ namespace VIAW.Systems.Player
             state.Grounded = motor.GroundingStatus.IsStableOnGround;
             state.Velocity = motor.Velocity;
             debugStance = state.Stance;
+            debugSprinting = isSprinting;
         }
 
         public void PostGroundingUpdate(float deltaTime) { }
@@ -279,6 +304,14 @@ namespace VIAW.Systems.Player
         public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport) { }
         public void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport) { }
         public void OnDiscreteCollisionDetected(Collider hitCollider) { }
+
+        public override bool _ShouldGenerateSound() {
+            if(isSprinting) { return true; }
+            else if(isCrouched) { return false; }
+            else {
+                return false;
+            }
+        }
 
         private void SetCrouched(bool crouch)
         {

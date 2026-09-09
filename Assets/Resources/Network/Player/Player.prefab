@@ -31,6 +31,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8942099074123391223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2274749463176966017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7990961922799331298}
+  - component: {fileID: 4031916465499612857}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7990961922799331298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2274749463176966017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 61716403154026236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4031916465499612857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2274749463176966017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2ae876d79510441a369be30936d70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VIAW.Systems.Player.SoundManager
+  currentCharData: {fileID: 0}
 --- !u!1 &4164894862549698782
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +163,7 @@ MonoBehaviour:
   playerCamera: {fileID: 4435671217895751174}
   playerCharacter: {fileID: 0}
   characterDataM: {fileID: 3892734225894575087}
+  soundM: {fileID: 4031916465499612857}
 --- !u!114 &8869718354512545340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +234,40 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7793480477103729364}
+  - {fileID: 2601758314335464709}
+  - {fileID: 7990961922799331298}
   m_Father: {fileID: 564058502054403338}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6467609598614763547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2449611048990489134}
+  m_Layer: 0
+  m_Name: '[Root] Hand'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2449611048990489134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467609598614763547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5777597039491391048}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6702580535463273459
 GameObject:
@@ -235,11 +314,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c949dc25e7cb3346b36924546519aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VIAW.Systems.Player.CharacterDataManager
-  CharacterSpawnRoot: {fileID: 564058502054403338}
+  characterSpawnRoot: {fileID: 564058502054403338}
+  handSpawnRoot: {fileID: 2449611048990489134}
   fallbackCharacterData: {fileID: 11400000, guid: ad8d3e1b5e4e70c4b9df1c29287316e3, type: 2}
   currentCharacterData: {fileID: 0}
   currentCharacterObject: {fileID: 0}
   currentMovementController: {fileID: 0}
+  currentArmController: {fileID: 0}
+--- !u!1 &6984153808050008456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2601758314335464709}
+  - component: {fileID: 684996706924527840}
+  m_Layer: 0
+  m_Name: GameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2601758314335464709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984153808050008456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 61716403154026236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684996706924527840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984153808050008456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e7788fa3ca181449e0216ef003ee70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VIAW.Systems.Player.PlayerGameStateManager
+  gameOver: {fileID: 11400000, guid: 4de8e57ec2db54045841a52cac959570, type: 2}
+  roundOver: {fileID: 11400000, guid: 9cc667bbebafed140ba453714fac4704, type: 2}
 --- !u!1 &7368212683475888128
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +397,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2449611048990489134}
   m_Father: {fileID: 5837340140700502086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1560195338517351544
@@ -522,7 +650,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 75
   orthographic: 0

@@ -1,20 +1,27 @@
 using UnityEngine;
 using VIAW.Data;
+using TinyInspector;
 
 namespace VIAW.Systems.Player
 {
     public class CharacterDataManager : MonoBehaviour
     {
-        [Header("Scene Refs")]
-        [SerializeField] private Transform CharacterSpawnRoot;
-
-        [Header("Config")]
+        [BoxGroup("Scene Refs")]
+        [SerializeField] private Transform characterSpawnRoot;
+        [BoxGroup("Scene Refs")]
+        [SerializeField] private Transform handSpawnRoot;
+        
+        [BoxGroup("Config")]
         [SerializeField] private CharacterDataSO fallbackCharacterData;
 
-        [Header("Debug")]
+        [BoxGroup("Debug")]
         public CharacterDataSO currentCharacterData;
+        [BoxGroup("Debug")]
         public GameObject currentCharacterObject;
+        [BoxGroup("Debug")]
         public _MovementController currentMovementController;
+        [BoxGroup("Debug")]
+        public _ArmController currentArmController;
 
         public void Initialize() {
             // TODO: Strip this code out if there ends up being a character select system
@@ -34,11 +41,15 @@ namespace VIAW.Systems.Player
                 ClearCharacter();
             }
 
+            // Instantiate Character which then spins up the third person visuals
             currentCharacterData = newCharacter;
-            currentMovementController = Instantiate(newCharacter.gameplayController, CharacterSpawnRoot);
+            currentMovementController = Instantiate(newCharacter.gameplayController, characterSpawnRoot);
             if(currentMovementController != null) {
                 currentCharacterObject = currentMovementController.gameObject;
             }
+
+            // Instantiate Arms for the character
+            currentArmController = Instantiate(newCharacter.firstPersonArms, handSpawnRoot);
         }
 
         private void ClearCharacter() {

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de2725a6cff5bd45ad4e9ec371b2b7b, type: 3}
+  m_Name: CharSData.Base
+  m_EditorClassIdentifier: Assembly-CSharp::VIAW.Data.CharacterSoundData
+  walkingBasic:
+    Guid:
+      Data1: 1036656926
+      Data2: 1195914909
+      Data3: 319639429
+      Data4: -25264380
+    Path: event:/Character/Veto/Footsteps/Veto_Footstep
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  landEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

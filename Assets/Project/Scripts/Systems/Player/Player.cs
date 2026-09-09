@@ -1,21 +1,26 @@
 using UnityEngine;
 using VIAW.Systems.Network;
+using TinyInspector;
 
 namespace VIAW.Systems.Player
 {
     public class Player : MonoBehaviour
     {
-        [Header("State Machine")]
+        [BoxGroup("State Machine")]
         [SerializeField] private PlayerStateMachine PSM;
+        [BoxGroup("State Machine")]
         [SerializeField] private LocalPlayerState LPS;
         
-        [Header("Controllers")]
+        [BoxGroup("Controllers")]
         [SerializeField] private PlayerCamera playerCamera;
         [Space]
+        [BoxGroup("Controllers")]
         [SerializeField] private _MovementController playerCharacter;
 
-        [Header("Managers")]
+        [BoxGroup("Managers")]
         [SerializeField] private CharacterDataManager characterDataM;
+        [BoxGroup("Managers")]
+        [SerializeField] private SoundManager soundM;
 
         private Transform cameraFocalTarget;
         private Transform spectatorCameraTarget;
@@ -112,8 +117,13 @@ namespace VIAW.Systems.Player
                 if(!characterDataM.currentMovementController._isInitialized) {
                     playerCharacter = characterDataM.currentMovementController;
 
-                    playerCharacter._Initialize(PSM);
-                 }
+                    playerCharacter._Initialize(PSM, characterDataM.currentCharacterData);
+                }
+            }
+
+            // Sound Manager Info
+            if(characterDataM.currentCharacterData != null && characterDataM.currentMovementController) {
+                soundM.UpdateData(characterDataM.currentCharacterData, characterDataM.currentMovementController);
             }
         }
         #endregion

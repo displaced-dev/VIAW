@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace VIAW.Systems.Player
 {
-    public class ReynaAnimatorController : _PlayerAnimation
+    public class ReynaArmController : _ArmController
     {
+        
     }
 }

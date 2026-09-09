@@ -125,24 +125,27 @@ MonoBehaviour:
   _inputChannels:
   - {fileID: 11400000, guid: 3c6618102f126c4489730a7d61fd9a70, type: 2}
   _inputAuthorized: 0
-  _visualsRig: {fileID: 5271552828708168830, guid: c71578c2f7a9e1d4e8dd30f1530217de, type: 3}
   _visualSpawnPoint: {fileID: 8814083957873219374}
+  _characterData: {fileID: 0}
   _isInitialized: 0
+  stanceMirror: 0
   motor: {fileID: -5236057792636638070}
   cameraTarget: {fileID: 5491012327877992810}
-  groundResponse: 25
-  gravity: -90
+  groundResponse: 15
+  gravity: -70
   standHeight: 2
-  crouchHeight: 1.2
-  cameraStandHeight: 0.9
-  cameraCrouchHeight: 0.7
+  crouchHeight: 1.5
+  cameraStandHeight: 0.98
+  cameraCrouchHeight: 0.98
   heightResponse: 15
-  walkSpeed: 20
-  crouchSpeed: 10
-  airSpeed: 15
-  airAcceleration: 70
-  jumpSpeed: 20
+  walkSpeed: 4
+  crouchSpeed: 3
+  sprintSpeed: 7
+  airSpeed: 4
+  airAcceleration: 60
+  jumpSpeed: 16
   debugStance: 0
+  debugSprinting: 0
   currentRigInfo: {fileID: 0}
 --- !u!114 &1831259262649034570
 MonoBehaviour:

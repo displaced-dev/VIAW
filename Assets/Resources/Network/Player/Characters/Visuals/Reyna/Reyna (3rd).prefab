@@ -114,7 +114,7 @@ Animator:
   m_GameObject: {fileID: 78300402635684038}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9045d387b907851418d58155b501ec53, type: 3}
-  m_Controller: {fileID: 9100000, guid: e3e888b3c64bad44fa5a3b0dd9683bf5, type: 2}
+  m_Controller: {fileID: 9100000, guid: d9fd17c879dce334abeafe8ecf68f40e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   StepInfoReceiver: {fileID: 0}
   ExtraPelvisOffset: {x: 0, y: 0, z: 0}
   ReposeGluingAfter: 0
-  GlueOnlyOnIdle: 0
+  GlueOnlyOnIdle: 1
   LocalWorldUp: 1
   DisableCustomModules: 0
   CustomModules:
@@ -595,12 +595,12 @@ MonoBehaviour:
   AnimationFloorLevel: 0.001
   _Editor_Foldout_Setup_LegsList: 1
   _Editor_EnsureCount: 0
-  _Editor_OnValidateTrigger: 1
+  _Editor_OnValidateTrigger: 0
   _EditorAllowAutoUpdateFeetParams: 1
-  _EditorCategory: 1
+  _EditorCategory: 2
   _EditorSetupCategory: 1
-  _EditorMotionCategory: 1
-  _EditorExtraCategory: 2
+  _EditorMotionCategory: 3
+  _EditorExtraCategory: 0
   setupPose:
     MainHipsPose:
       SourceTransform: {fileID: 0}
@@ -2354,7 +2354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8893028037393375425}
   - component: {fileID: 5271552828708168830}
-  - component: {fileID: 6609672165023671798}
+  - component: {fileID: 8756667200504235828}
   m_Layer: 0
   m_Name: Reyna (3rd)
   m_TagString: Untagged
@@ -2391,10 +2391,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VIAW.Systems.Player.RigInfo
   followerConstraint: {fileID: 8489844272907901249}
-  playerAnimation: {fileID: 6609672165023671798}
+  characterAnimator: {fileID: 8014068131083205929}
+  playerAnimation: {fileID: 8756667200504235828}
   legsAnimator: {fileID: 3235308547609551911}
   meshManager: {fileID: 7323307246256209588}
---- !u!114 &6609672165023671798
+  localPlayer: 0
+--- !u!114 &8756667200504235828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2406,6 +2408,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6758f370a38cc4296e5300b319aeaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VIAW.Systems.Player.ReynaAnimatorController
+  _inputChannels:
+  - {fileID: 11400000, guid: 3c6618102f126c4489730a7d61fd9a70, type: 2}
+  _inputAuthorized: 0
+  rigInfo: {fileID: 5271552828708168830}
+  characterAnimator: {fileID: 8014068131083205929}
+  m_Controller: {fileID: 0}
+  deltaTime: 0
+  speedModifier: 5
 --- !u!1 &1341754551248188203
 GameObject:
   m_ObjectHideFlags: 0
