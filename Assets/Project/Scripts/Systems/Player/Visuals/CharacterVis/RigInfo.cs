@@ -12,12 +12,14 @@ namespace VIAW.Systems.Player
         [BoxGroup("Scene Refs")]
         public Transform followerConstraint;
         [BoxGroup("Scene Refs")]
+        public Transform handRoot;
+        [BoxGroup("Scene Refs/Components")]
         public Animator characterAnimator;
-        [BoxGroup("Scene Refs")]
+        [BoxGroup("Scene Refs/Components")]
         public _PlayerAnimation playerAnimation;
-        [BoxGroup("Scene Refs")]
+        [BoxGroup("Scene Refs/Components")]
         public LegsAnimator legsAnimator;
-        [BoxGroup("Scene Refs")]
+        [BoxGroup("Scene Refs/Components")]
         public MeshManager meshManager;
 
         [BoxGroup("Controls")]

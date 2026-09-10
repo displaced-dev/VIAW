@@ -33,7 +33,6 @@ namespace VIAW.Systems.Player
         // Helpers
         public abstract Transform _GetCameraTarget();
         public abstract RigInfo _GetCurrentRigInfo();
-        public abstract bool _ShouldGenerateSound();
         
         // Level Design Calls
         public abstract void _Teleport(Vector3 position);

@@ -8,6 +8,9 @@ namespace VIAW.Systems.Player
 {
     public abstract class _ArmController : _InputAuth
     {
+        public Transform handRoot;
+        public Animator armAnimator;
+        
         public void Start(){
             aInputInit(true);
             InputAuthManager.Instance.RequestInput(this);
@@ -18,5 +21,10 @@ namespace VIAW.Systems.Player
                 InputAuthManager.Instance.RelinquishRequest(this);
             }
         }
+
+        public void Update() { }
+
+        public abstract void _ATypicalAnimations();
+        
     }
 }

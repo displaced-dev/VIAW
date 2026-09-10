@@ -131,18 +131,18 @@ MonoBehaviour:
   stanceMirror: 0
   motor: {fileID: -5236057792636638070}
   cameraTarget: {fileID: 5491012327877992810}
-  groundResponse: 15
+  groundResponse: 10
   gravity: -70
   standHeight: 2
   crouchHeight: 1.5
-  cameraStandHeight: 0.98
-  cameraCrouchHeight: 0.98
+  cameraStandHeight: 0.92
+  cameraCrouchHeight: 0.92
   heightResponse: 15
   walkSpeed: 4
   crouchSpeed: 3
   sprintSpeed: 7
   airSpeed: 4
-  airAcceleration: 60
+  airAcceleration: 45
   jumpSpeed: 16
   debugStance: 0
   debugSprinting: 0

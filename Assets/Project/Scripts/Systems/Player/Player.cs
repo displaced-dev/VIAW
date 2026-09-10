@@ -21,6 +21,10 @@ namespace VIAW.Systems.Player
         [SerializeField] private CharacterDataManager characterDataM;
         [BoxGroup("Managers")]
         [SerializeField] private SoundManager soundM;
+        [BoxGroup("Managers")]
+        [SerializeField] private WeaponManager weaponM;
+        [BoxGroup("Managers")]
+        [SerializeField] private InteractionsManager interactionsM;
 
         private Transform cameraFocalTarget;
         private Transform spectatorCameraTarget;
@@ -46,6 +50,8 @@ namespace VIAW.Systems.Player
         private void LocalInit() {
             playerCamera.Initialize(PSM);
             characterDataM.Initialize();
+            interactionsM.Initialize();
+            weaponM.Initialize();
         }
         private void RemoteInit() {
             playerCamera.RemoteInit();
@@ -110,6 +116,12 @@ namespace VIAW.Systems.Player
                        playerCharacter._RemoteInit(); 
                     }
                 }
+                
+                // Update the Data of the Weapon Manager
+                if(playerCharacter != null) {
+                    RigInfo rig = playerCharacter._GetCurrentRigInfo();
+                    weaponM.UpdateThirdHand(rig.handRoot);
+                }
             }
             
             // Character Data
@@ -119,6 +131,16 @@ namespace VIAW.Systems.Player
 
                     playerCharacter._Initialize(PSM, characterDataM.currentCharacterData);
                 }
+            }
+
+            // Update the Data of the Weapon Manager
+            if(characterDataM.currentMovementController != null) {
+                weaponM.UpdateFirstHand(characterDataM.currentArmController.handRoot);
+
+                RigInfo rig = playerCharacter._GetCurrentRigInfo();
+                weaponM.UpdateThirdHand(rig.handRoot);
+
+                weaponM.UpdateAnimators(characterDataM.currentArmController.armAnimator, rig.characterAnimator);
             }
 
             // Sound Manager Info

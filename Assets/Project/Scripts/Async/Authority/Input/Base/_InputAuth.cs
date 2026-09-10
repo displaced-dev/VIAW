@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using VIAW.Data;
 using TinyInspector;
+using PurrNet;
 using System;
 
 namespace VIAW.Async.Auth {

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TinyInspector;
 using KinematicCharacterController;
@@ -36,13 +38,13 @@ namespace VIAW.Systems.Player
         [TabGroup("Controller", "Height")]
         [SerializeField] private float heightResponse = 15f;
 
-        [TabGroup("Movement", "Speeds")] [Title("Grounded")]
+        [TabGroup("Movement", "Speeds")]
         [SerializeField] private float walkSpeed = 20f;
         [TabGroup("Movement", "Speeds")]
         [SerializeField] private float crouchSpeed = 10f;
         [TabGroup("Movement", "Speeds")]
         [SerializeField] private float sprintSpeed = 32f;
-        [TabGroup("Movement", "Speeds")] [Separator(12, 24)] [Title("Air")]
+        [TabGroup("Movement", "Speeds")] 
         [SerializeField] private float airSpeed = 15f;
         [TabGroup("Movement", "Speeds")]
         [SerializeField] private float airAcceleration = 70f;
@@ -96,7 +98,6 @@ namespace VIAW.Systems.Player
 
         public override void _RemoteInit() {
             motor.enabled = false;
-            this.enabled = false;
         }
 
         public override void _UpdateBody(float deltaTime, Transform playerCam)
@@ -164,7 +165,21 @@ namespace VIAW.Systems.Player
         }
 
         public override Transform _GetCameraTarget() => cameraTarget;
-        public override RigInfo _GetCurrentRigInfo() => currentRigInfo;
+        public override RigInfo _GetCurrentRigInfo()
+        {
+            if(currentRigInfo == null) {
+                FindComponent(ref currentRigInfo);
+            }
+
+            return currentRigInfo;
+        }
+        
+        void FindComponent<T>(ref T field) where T : Component
+        {
+            if (field != null) return;
+
+            field = GetComponent<T>() ?? GetComponentInChildren<T>();
+        }
 
         public override void _Teleport(Vector3 position)
         {
@@ -304,14 +319,6 @@ namespace VIAW.Systems.Player
         public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport) { }
         public void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport) { }
         public void OnDiscreteCollisionDetected(Collider hitCollider) { }
-
-        public override bool _ShouldGenerateSound() {
-            if(isSprinting) { return true; }
-            else if(isCrouched) { return false; }
-            else {
-                return false;
-            }
-        }
 
         private void SetCrouched(bool crouch)
         {

@@ -4,7 +4,7 @@ using TinyInspector;
 
 namespace VIAW.Data
 {
-    [CreateAssetMenu(fileName = "WeaponData", menuName = "ScriptableObjects/Character/WeaponData", order = 1)]
+    [CreateAssetMenu(fileName = "WeaponData", menuName = "ScriptableObjects/Weapons/WeaponData", order = 1)]
     public class WeaponDataSO : ScriptableObject
     {
         [BoxGroup("Config")]
@@ -15,7 +15,15 @@ namespace VIAW.Data
         public float ammoCount;
 
         [BoxGroup("Scene Refs")]
-        public GameObject weaponAsset;
-        // public _ArmsController _armsController;
+        public GameObject weaponWorldAsset;
+        [BoxGroup("Scene Refs")]
+        public WeaponController weaponController;
+        [BoxGroup("Scene Refs")]
+        public GameObject thirdPersonObject;
+
+        [BoxGroup("Data")]
+        public WeaponSoundDataSO weaponSound;
+        [BoxGroup("Data")]
+        public bool isMainSlot;
     }
 }
